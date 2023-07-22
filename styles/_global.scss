@@ -28,7 +28,10 @@ li{
     line-height: normal;
     list-style: none;
 }
-
+li:hover{ 
+    color: #9500FF;
+    transition: .3s;
+}
 ul{ 
     display: flex;
     align-items: center;
