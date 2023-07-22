@@ -308,6 +308,17 @@ template {
   display: none;
 }
 
+@media screen and (max-width: 1260px) {
+  .second {
+    display: none !important;
+  }
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px !important;
+  }
+}
 @media screen and (max-width: 1100px) {
   nav {
     gap: 50px !important;
@@ -433,6 +444,10 @@ header .big {
   align-items: center;
   gap: 10px;
   margin-top: 20px;
+}
+header .big.big:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 header .center {
   display: flex;
