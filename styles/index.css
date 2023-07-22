@@ -308,6 +308,14 @@ template {
   display: none;
 }
 
+nav {
+  padding-top: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 195px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
