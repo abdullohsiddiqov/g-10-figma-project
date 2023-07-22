@@ -438,7 +438,7 @@ header .big {
   line-height: normal;
   border-radius: 59px;
   border: 5px solid #9500FF;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   padding: 20px 43px;
   align-items: center;
@@ -626,4 +626,18 @@ input {
 
 .menu div {
   transition: transform 0.5s linear;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+footer .icons {
+  width: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  background-color: #9500FF;
+  border-radius: 50%;
 }
