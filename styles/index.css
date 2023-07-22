@@ -317,6 +317,7 @@ template {
     align-items: center;
     justify-content: center;
     margin-top: 150px !important;
+    margin-bottom: 150px !important;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -327,6 +328,12 @@ template {
 @media screen and (max-width: 1047px) {
   ul {
     gap: 30px !important;
+  }
+}
+@media screen and (max-width: 925px) {
+  footer {
+    grid-template-columns: repeat(3, 67px) !important;
+    padding-bottom: 50px !important;
   }
 }
 @media screen and (max-width: 860px) {
@@ -629,10 +636,12 @@ input {
 }
 
 footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 67px);
   align-items: center;
   justify-content: center;
   gap: 100px;
+  padding-bottom: 70px;
 }
 footer .icons {
   width: 67px;

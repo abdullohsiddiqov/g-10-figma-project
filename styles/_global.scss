@@ -83,10 +83,12 @@ input{
     transition: transform 0.5s linear;
 }
 footer{ 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,67px);
     align-items: center;
     justify-content: center;
     gap: 100px;
+    padding-bottom: 70px;
     .icons{ 
         width: 67px;
         height: 67px;
