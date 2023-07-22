@@ -424,6 +424,10 @@ li {
   list-style: none;
 }
 
+li.light {
+  color: white;
+}
+
 li:hover {
   color: #9500FF;
   transition: 0.3s;
